@@ -30,4 +30,4 @@ jobs:
     #     pylint $(git ls-files '*.py')
     - name: Run pytest 
       run: | 
-        pytest tests/
+        pytest tests/test.py
