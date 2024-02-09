@@ -18,4 +18,7 @@ where = ["src"]
 [tool.setuptools.package-data]
 "*" = ["*.json"]
 
-
+[tool.ruff]
+# Add "Q" to the list of enabled codes.
+lint.select = ["E", "F", "Q"]
+fix = true

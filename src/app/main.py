@@ -8,7 +8,7 @@ app = FastAPI(
     description="Kadaster API",
     version="0.0.1"
 )
-print('hello')
+print("hello")
 
 # Allow all origins, methods and headers
 app.add_middleware(
