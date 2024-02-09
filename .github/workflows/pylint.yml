@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build:
+  Pylint:
     runs-on: ubuntu-latest
     strategy:
       matrix:
