@@ -32,3 +32,6 @@ jobs:
     - name: Run pytest 
       run: | 
         pytest tests/test.py
+    - name: push to docker registry
+      run: |
+        docker build . -t training

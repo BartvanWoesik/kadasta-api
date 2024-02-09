@@ -22,3 +22,4 @@ where = ["src"]
 # Add "Q" to the list of enabled codes.
 lint.select = ["E", "F", "Q"]
 fix = true
+
